@@ -1,8 +1,10 @@
 ﻿// написать программу которая генерирует два целых ыисла и выводитих сумму
 
 Console.Clear();
-int numberA = 24;
-int numberB = 42;
+int numberA = new Random(). Next(1, 10);
+Console.WriteLine(numberA);
+int numberB = new Random(). Next(1, 10);
+Console.WriteLine(numberB);
 int result = numberA + numberB;
 Console.WriteLine(result);
 
