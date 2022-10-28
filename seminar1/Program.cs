@@ -72,4 +72,65 @@
 //     Console.WriteLine("это не трехзначное число");
 // }
 
+// написать программу которая принимает два числа и выдает какое число больше
+// Console.Clear();
+// Console.WriteLine("Ввидите число: ");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Ввидите число: ");
+// int num2 = Convert.ToInt32(Console.ReadLine());
+
+// if(num1 > num2)Console.WriteLine($"Максимальное число: {num1}");
+// if(num2 > num1)Console.WriteLine($"Максимальное число: {num2}");
+
+// написать программу которая принимает три числа и выдает какое число максимальное
+
+// Console.Clear();
+// Console.WriteLine("Ввидите число: ");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Ввидите число: ");
+// int num2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Ввидите число: ");
+// int num3 = Convert.ToInt32(Console.ReadLine());
+// int max = 0;
+
+// if(num1 > num2) max = num1;
+
+// if(num2 > num1) max = num2;
+
+// if(num3 > num1) max = num3;
+// Console.WriteLine($"{max}");
+
+
+// написать прогу которая принемает число и проверяет четное оно или нет
+// Console.Clear();
+// Console.WriteLine("Ввидите число: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// if(num % 2 == 0)
+// {
+//     Console.WriteLine("число четное");
+// }
+// else
+// {
+//     Console.WriteLine("число не четное");
+// }
+
+
+// программа которая принимает число N и выдает все четные от одного до N
+
+Console.Clear();
+Console.WriteLine("Ввидите число: ");
+int num = Convert.ToInt32(Console.ReadLine());
+int count = 0;
+for(num % 2 == 0)
+{
+    
+}
+Console.WriteLine(count = count +1);
+
+ 
+
+ 
+
+
 
